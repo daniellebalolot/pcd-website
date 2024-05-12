@@ -1,0 +1,77 @@
+.body {
+  padding:0;
+  margin: 0;
+  background-color: #121317;
+}
+.header {
+  position: fixed;
+  top: 0;
+  left:0;
+  width:100%;
+  padding: 20px 100px;
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index:100;
+}
+.logo {
+  text-shadow: 6px 6px 6px rgba(0, 0, 0, 0.3);
+  font-size: 32px;
+  color: #Fff;
+  text-decoration: none;
+  font-weight:700;
+}
+.navbar a {
+position: relative;
+font-size: 18px;
+color: #FFF;
+font-weight 500;
+text-decoration: none;
+margin-left:40px;
+}
+.navbar a::before {
+  
+  content: '';
+  position:absolute;
+  top:100%;
+  left:0%;
+  width: 0%;
+  height:2px;
+  background: #FFF;
+  tansition:.3s;
+}
+.navbar a:hover::before {
+  width:100%;
+}
+.balolot-cass {
+text-shadow: 6px 6px 6px rgba(0, 0, 0, 0.3);
+height:100px;
+background-color: rgba(255, 255, 255, 0.2);
+line-height: 0.20;
+color: white;
+}
+.cass-b {
+   box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.20);
+  color:white;
+  border-radius: 10px;
+  background-color: #728629;
+  border:none;
+  position:absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  padding: 20px 50px;
+  font-size: 40px;
+  font-weight: bold;
+  transition:background-color 1s;
+}
+.cass-b:hover{
+  opacity:.7;
+}
+.cass-b:active{
+  opacity: .5s;
+}
+.cas-img {
+background-size:115%;
+}
